@@ -40,8 +40,4 @@ public class PlayerController : MonoBehaviour
             Instantiate(lazarBolt, blaster.transform.position, lazarBolt.transform.rotation);
         }
     }
-    private void OnTriggerEnter(Collider other )
-    {
-        Destroy(other.gameObject);
-    }
 }
