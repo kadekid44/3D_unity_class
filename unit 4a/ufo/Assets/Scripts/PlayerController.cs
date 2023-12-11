@@ -26,16 +26,18 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
         //keeps player in the boundarys
         //left side wall
-        if(transform.position.x < -xRange)
+        if (transform.position.x < -xRange)
         {
-            transform.position = new Vector3(-xRange,transform.position.y, transform.position.z);
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
+
         //right side wall
-        if(transform.position.x > xRange)
+        if (transform.position.x > xRange)
         {
-            transform.position = new Vector3(xRange,transform.position.y, transform.position.z);
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
-        if(Input.GetKeyDown(KeyCode.Space))
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(lazarBolt, blaster.transform.position, lazarBolt.transform.rotation);
         }
