@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5226116952184015605}
   - component: {fileID: 8925905156349301340}
   - component: {fileID: -5258265680440022772}
+  - component: {fileID: -1232742733267222060}
   m_Layer: 0
   m_Name: ufo_scout
   m_TagString: Untagged
@@ -175,3 +176,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360f6cd03cbe24999b586623139c97d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1232742733267222060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192611562083218267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4eb02ce918149bab35c14ab5c235c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 0}
+  scoreToGive: 1

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5228666254951361376}
   - component: {fileID: 8477865628132623526}
   - component: {fileID: 6075235099058131945}
-  - component: {fileID: 4822115829921058803}
+  - component: {fileID: -8618801581422124929}
   m_Layer: 0
   m_Name: Points
   m_TagString: Untagged
@@ -134,7 +134,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4822115829921058803
+--- !u!114 &-8618801581422124929
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,6 +143,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6427404179063475168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 360f6cd03cbe24999b586623139c97d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d4eb02ce918149bab35c14ab5c235c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreManager: {fileID: 0}
+  scoreToGive: 5

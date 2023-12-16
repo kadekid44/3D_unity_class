@@ -1,1 +1,0 @@
-Temp/ScriptUpdater/325267976/1803927505_ScoreManager.cs => Assets/Scripts/ScoreManager.cs

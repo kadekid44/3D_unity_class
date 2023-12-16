@@ -353,9 +353,13 @@
 "Assets/Scripts/collision_detect.cs"
 "Assets/Scripts/DestroyOutOfBounds.cs"
 "Assets/Scripts/EnemySpawnManager.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/MoreCollisionDetect.cs"
 "Assets/Scripts/MoveForward.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Points.cs"
+"Assets/Scripts/ScoreManager.cs"
 -langversion:9.0
 
 /deterministic
